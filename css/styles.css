@@ -12,3 +12,12 @@
   color:#FFFFFF;
   font-size: 30px;
 }
+#menu-list{
+  color:#FFFFFF;
+}
+#breakfast{
+  background-image:  url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/breakfast.jpg")
+}
+#lunch{
+  background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/lunch.jpg");
+}
