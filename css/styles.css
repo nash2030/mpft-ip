@@ -1,0 +1,14 @@
+.row1 {
+    background-image: url("../assets/backgrounds/landing.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.card-body img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.card-body p {
+  text-align:center;
+  color:#FFFFFF;
+  font-size: 30px;
+}
