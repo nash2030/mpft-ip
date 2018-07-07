@@ -9,13 +9,16 @@
   color:#FFFFFF;
 }
 #breakfast{
-  background-image:  url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/breakfast.jpg")
+  background-image:  url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/breakfast.jpg");
+  background-size: cover;
 }
 #lunch{
   background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/lunch.jpg");
+  background-size: cover;
 }
 #dinner{
-  background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/dinner.jpg")
+  background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/dinner.jpg");
+  background-size: cover;
 }
 #party{
   background-color: orange;
@@ -29,7 +32,10 @@ display :flex
 .logo-word{
   text-align: center;
   color: white;
-  padding: 20px;
   font-size: 40px;
   font-family:serif;
+  font-weight: lighter;
+}
+#menu-list{
+  padding-bottom: 200px;
 }
