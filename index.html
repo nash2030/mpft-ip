@@ -1,29 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script   src="js/jquery-3.3.1.min.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>Document</title>
-</head>
-<body>
-  <div class="container">
-    <div class="row1">
-      <div class="card">
-        <div class="card-body">
-          <center><img src="assets/logoBig.png" alt="menu logo" class="logo"></center>
-          <h1>We Provide The Best Food <br>At The <strong>Right Price</strong></br></h1>
-        </div>
+  <head>
+    <meta charset="UTF-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script   src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="row" id="landing-page">
+      <div class="col-md-12">
+        <img src="assets/logoBig.png" alt="menu logo" class="logo">
+        <h1 class="logo-word">We Provide The Best Food <br>At The <strong>Right Price</strong></br></h1>
       </div>
     </div>
     <div class="row" id="menu-list">
-      <div class="col-md-3" id="breakfast1" >Happy Hour</div>
+      <div class="col-md-3" id="breakfast1" >
+        <div class="row" id="Happy">
+          <p>Happy Hour</p>
+        </div>
+        <div class="row" id="party">
+          <p>Party Time</p>
+        </div>
+      </div>
       <div class="col-md-3" id="breakfast">Breakfast</div>
       <div class="col-md-3" id="lunch">Lunch</div>
       <div class="col-md-3" id="dinner">Dinner</div>
     </div>
-  </div>
 </body>
 </html>
