@@ -2,6 +2,9 @@
     background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/backgrounds/landing.jpg");
     background-size:cover;
     background-position: center;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    font-family: sans-serif;
 }
 #menu-list{
   color:#FFFFFF;
@@ -27,4 +30,6 @@ display :flex
 .logo-word{
   text-align: center;
   color: white;
+  padding: 20px;
+  font-size: 40px;
 }
