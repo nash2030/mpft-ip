@@ -4,7 +4,6 @@
     background-position: center;
     padding-bottom: 60px;
     padding-top: 60px;
-    font-family: sans-serif;
 }
 #menu-list{
   color:#FFFFFF;
@@ -32,4 +31,5 @@ display :flex
   color: white;
   padding: 20px;
   font-size: 40px;
+  font-family:serif;
 }
