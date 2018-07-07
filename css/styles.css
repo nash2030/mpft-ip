@@ -1,16 +1,7 @@
-.row1 {
-    background-image: url("../assets/backgrounds/landing.jpg");
-    background-size: cover;
+#landing-page {
+    background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/backgrounds/landing.jpg");
+    background-size:cover;
     background-position: center;
-}
-.card-body img {
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-.card-body p {
-  text-align:center;
-  color:#FFFFFF;
-  font-size: 30px;
 }
 #menu-list{
   color:#FFFFFF;
@@ -23,4 +14,17 @@
 }
 #dinner{
   background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/dinner.jpg")
+}
+#party{
+  background-color: orange;
+}
+.logo{
+align-items: center;
+justify-content: center;
+margin: auto;
+display :flex
+}
+.logo-word{
+  text-align: center;
+  color: white;
 }
