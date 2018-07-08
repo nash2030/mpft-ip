@@ -58,3 +58,9 @@ display :flex
   float: none;
   margin-top: 10px;
 }
+.card-body h5:first-child{
+  color: #F15A29;
+}
+#customer{
+  text-align: center;
+}
