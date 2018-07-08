@@ -42,3 +42,6 @@ display :flex
 .well{
   cursor: e-resize;
 }
+#fastFood{
+  background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/backgrounds/foodsBg.jpg");
+}
