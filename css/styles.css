@@ -39,3 +39,6 @@ display :flex
 #menu-list{
   padding-bottom: 200px;
 }
+#party p {
+  text-align: center;
+}
