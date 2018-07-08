@@ -44,4 +44,8 @@ display :flex
 }
 #fastFood{
   background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/backgrounds/foodsBg.jpg");
+  background-size: cover;
+}
+.card-body{
+  display: inline;
 }
