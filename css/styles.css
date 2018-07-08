@@ -64,3 +64,17 @@ display :flex
 #customer{
   text-align: center;
 }
+#deliveries{
+  background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/backgrounds/subscribe.jpg");
+  background-size:cover;
+  background-position:center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+#deliveries h4{
+  color:white;
+  text-align: center;
+}
+#footerlogos{
+  background-color: #F15A29;
+}
