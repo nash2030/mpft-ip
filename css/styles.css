@@ -46,6 +46,12 @@ display :flex
   background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/backgrounds/foodsBg.jpg");
   background-size: cover;
 }
-.card-body{
+.card-body h5 {
   display: inline;
+  padding-right: 50px;
+}
+.card{
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
 }
