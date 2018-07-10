@@ -7,8 +7,7 @@
 ## Description
   *This web-page is all about the Homepage of a website named Anita's Kitchen and the type of meals that can be found there.*
 
-## Setup/installation
-  *Go to mpft-ip directory on github*
+## Setup/installation 
   *Click on this link <https://nash2030.github.io/mpft-ip/>to view the webpage.*
 
 ## License

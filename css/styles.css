@@ -76,6 +76,9 @@ display :flex
   display: inline;
   padding-right: 50px;
 }
+#food {
+  display: inline;
+}
 .card{
   margin: 0 auto;
   float: none;
@@ -115,6 +118,7 @@ display :flex
 }
 #footerlogos{
   background-color: #F15A29;
+  text-align: center;
 }
 #delicious{
   padding-bottom: 80px;
@@ -208,4 +212,17 @@ img.beefBurger{
 img.chickenPizza{
   left: 26%;
   position: relative;
+}
+.last{
+  text-align: center;
+  color: #f9f8f7;
+}
+#footerlogos h2{
+  color: #f9f8f7;
+}
+#footerlogos h4{
+  color: #f9f8f7;
+}
+#food p{
+  text-align: center;
 }
