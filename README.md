@@ -12,9 +12,9 @@
   *Click on this link <https://nash2030.github.io/mpft-ip/>to view the webpage.*
 
 ## License
-  *This License of this project under the MIT License*
+  *This License of this project under the <MIT> License*
 
-##The Technologies Used
+## The Technologies Used
   *HTML*
   *CSS*
   *JAVASCRIPT*
