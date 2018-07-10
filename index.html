@@ -2,11 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script   src="js/jquery-3.3.1.min.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Anita's Menu</title>
+    <title>Anita's Kitchen</title>
   </head>
   <body>
     <div class="row" id="landing-page">
@@ -28,36 +28,33 @@
       <div class="col-md-3" id="lunch">Lunch</div>
       <div class="col-md-3" id="dinner">Dinner</div>
     </div>
-    <div class="row">
-      <div class="col-md-4" id="delicious">
-        <div class="row">
-          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastFood1.jpg" alt="fastFood1">
-        </div>
-        <div class="row">
-          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastFood2.jpg" alt="fastFood2">
-        </div>
+    <div class="row" id="delicious">
+      <div class="well">
+          <div class="fork">
+            <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastFood1.jpg" alt="fastFood1">
+          </div>
+          <div class="spoon">
+            <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastFood2.jpg" alt="fastFood2">
+          </div>
       </div>
-     <div class="col-md-4">
+     <div class="col-md-4" id="lorem">
        <h1>Fast Food</h1>
        <h4>You'll love our delicious fast food</h4>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-       <div class="well">
        <p>VIEW GALLERY</p>
-       </div>
      </div>
     </div>
-    <div class="row">
-      <div class="col-md-4">
+    <div class="row" id="drinking">
+      <div class="col-md-4" id="milk">
         <h1>Drinks</h1>
         <h4>We also produce delicious drinks</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-         <p>VIEW GALLERY</p>
+        <button class="btn btn-danger" id="view">VIEW GALLERY</button>
       </div>
-
-
-      <div class="drinks">
-         <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/drink1.jpg" alt="drink1">
-         <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/drink2.jpg" alt="drink2">
+      <div class="well">
+         <div class="glass">
+           <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/drink1.jpg" alt="drink1"><img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/drink2.jpg" alt="drink2">
+        </div>
       </div>
     </div>
     <div class="row" id="fastFood">
@@ -69,41 +66,34 @@
           <h5 class="card-header">Rice</h5>
         </div>
         <div class="card-body">
-          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastfood/chickenBurger.jpg" alt="chickenBurger">
-          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastfood/beefBurger.jpg" alt="beefBurger">
-          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastfood/chickenPizza.jpg" alt="chickenPizza">
+          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastfood/chickenBurger.jpg" class="chickenBurger">
+          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastfood/beefBurger.jpg" class="beefBurger">
+          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastfood/chickenPizza.jpg" class="chickenPizza">
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="well">
-        <div class="col-md-8" id="customer">
-          <h6>Our Happy Customers<br>George Richard</h6>
-          <p>Great food! Menu is awesome,there food is not only great but<br>also in the right price.I'll highly recommend them :)</p>
-          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/customers/p1.png" alt="customer1">
-          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/customers/p2.png" alt="customer2">
-          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/customers/p3.png" alt="customer3">
-        </div>
+    <div class="container-fluid">
+    <div class="row" id="customer">
+      <div class="col-md-7">
+        <h6>Our Happy Customers<br>George Richard</h6>
+        <p>Great food! Menu is awesome,there food is not only great but<br>also in the right price.I'll highly recommend them :)</p>
+        <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/customers/p1.png" alt="customer1">
+        <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/customers/p2.png" alt="customer2">
+        <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/customers/p3.png" alt="customer3">
       </div>
-      <div class="well" id="about">
-        <div class="col-md-4">
+      <div class="col-md-4">
           <h6>About Menu</h6>
           <p>We are menu a little team of 7 members.ut wisi enim ad minim veniam,
           quis nos truxeder ci tation ullercomper suscipit lob ortis nisl ut aliquip ex ea commodo conse quat.Duisau tem vel eum iriure dolor in.</p>
-        </div>
       </div>
+    </div>
     </div>
     <div class="row" id="deliveries">
       <h4>Get our daily food items delivered to your email</h4>
     </div>
     <div class="row" id="footerlogos">
       <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/footerlogos/logo_white.png" alt="logo_white">
-      <h2>MENU</h2>
-      <h6>That's What We Are</h6>
-      <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/footerlogos/facebook.png" alt="facebook">
-      <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/footerlogos/pinterest.png" alt="pinterest">
-      <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/footerlogos/twitter.png" alt="twitter">
-      <h7>2016 Menu Restaurant</h7>
+      <h2 class="header">MENU</h2>
     </div>
   </body>
 </html>

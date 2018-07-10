@@ -1,14 +1,20 @@
-# Independent Project
+# Anita's Kitchen
+  *Anita's Kitchen*
 
-## Instructions
-  1) Please clone the Moringa School **mpft1-ip** repo to your computer.
+## Author Name
+  *Nathan Ongoya Momanyi*
 
-  2) Create a repo on your profile, and copy the files from **mpft1-ip** to your new repo.
-  
-  3) Fix up the folder structure.
+## Description
+  *This web-page is all about the Homepage of a website named Anita's Kitchen and the type of meals that can be found there.*
 
-  4) Submit your link through Moringa School LMS.
+## Setup/installation
+  *Go to mpft-ip directory on github*
+  *Click on this link *<https://nash2030.github.io/mpft-ip/>*to view the webpage.*
 
-  5) Complete the independent project.
-  
-  6) Push your commits up to your repo.
+## License
+    *This License of this project under the MIT License*
+
+##The Technologies Used
+  *HTML*
+  *CSS*
+  *JAVASCRIPT*
