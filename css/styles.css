@@ -11,17 +11,33 @@
 #breakfast{
   background-image:  url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/breakfast.jpg");
   background-size: cover;
+  padding-bottom: 6%;
+  font-size: 25px;
+  text-align:center;
+  padding-top: 6%;
+  font-style: italic;
+  font-family: serif;
+
 }
 #lunch{
   background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/lunch.jpg");
   background-size: cover;
+  padding-bottom: 6%;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 6%;
+  font-style: italic;
+  font-family: serif;
 }
 #dinner{
   background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/dinner.jpg");
   background-size: cover;
-}
-#party{
-  background-color: #F15A29;
+  padding-bottom: 6%;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 6%;
+  font-style: italic;
+  font-family: serif;
 }
 .logo{
 align-items: center;
@@ -37,7 +53,7 @@ display :flex
   font-weight: lighter;
 }
 #menu-list{
-  padding-bottom: 200px;
+  padding-bottom:50px;
 }
 .well{
   cursor: e-resize;
@@ -78,6 +94,31 @@ display :flex
 #footerlogos{
   background-color: #F15A29;
 }
+.drinks{
+  box-shadow:
+}
+#delicious{
+  border: 10px solid #e5d9;
+}
 #Happy{
+  padding-bottom: 5%;
+  height: 115px;
+  font-size: 27px;
   color:black;
+  padding-top: 10%;
+  text-align: center;
+  padding-left: 18%;
+  background-color: #eae3e1;
+  font-family: serif;
+}
+#party{
+  background-color: #F15A29;
+  text-align: center;
+  padding-bottom: 10%;
+  height: 115px;
+  font-size: 27px;
+  padding-top: 10%;
+  text-align: center;
+  padding-left: 18%;
+  font-family: serif;
 }
