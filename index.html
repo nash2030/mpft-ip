@@ -12,7 +12,17 @@
   <body>
     <div class="row" id="landing-page">
       <div class="col-md-12">
-        <i class="fas fa-bars" style="color:white"></i>
+        <div class="lines">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#">Contacts</a>
+              <a href="#">Events</a>
+              <a href="#">Menu</a>
+            </div>
+          </div>
+          <span style="font-size:50px;cursor:pointer;color:#ffffff;" onclick="openNav()">&#9776; </span>
+        </div>
         <img src="assets/logoBig.png" alt="menu logo" class="logo">
         <p class="logo-word">We Provide The Best Food <br>At The <strong>Right Price</strong></br></p>
       </div>
@@ -32,14 +42,14 @@
     </div>
     <div class="row" id="delicious">
       <div class="well">
-          <div class="fork">
-            <img src="assets/fastFood1.jpg" alt="fastFood1">
-          </div>
-          <div class="spoon">
-            <img src="assets/fastFood2.jpg" alt="fastFood2">
-          </div>
+        <div class="fork">
+          <img src="assets/fastFood1.jpg" alt="fastFood1">
+        </div>
+        <div class="spoon">
+          <img src="assets/fastFood2.jpg" alt="fastFood2">
+        </div>
       </div>
-     <div class="col-md-4" id="lorem">
+      <div class="col-md-4" id="lorem">
        <h1>Fast Food</h1>
        <h4>You'll love our delicious fast food</h4>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -54,25 +64,24 @@
         <a href="#"><button class="button button1">VIEW GALLERY &#8594;</button></a>
       </div>
       <div class="well">
-         <div class="glass">
-           <img src="assets/drink1.jpg" alt="drink1"><img src="assets/drink2.jpg" alt="drink2">
+        <div class="glass">
+          <img src="assets/drink1.jpg" alt="drink1"><img src="assets/drink2.jpg" alt="drink2">
         </div>
       </div>
     </div>
     <div class="row" id="fastFood">
       <div class="container">
         <ul class="nav nav-tabs">
-  <li role="presentation" class="active">Fast Food</li>
-  <li role="presentation">Drinks</li>
-  <li role="presentation">Chicken</li>
-  <li role="presentation">Rice</li>
-    <i class="fas fa-angle-left" style="color:#F15A29"></i>
-  <img src="assets/fastfood/chickenBurger.jpg">
-  <img src="assets/fastfood/beefBurger.jpg">
-  <img src="assets/fastfood/chickenPizza.jpg">
-    <i class="fas fa-angle-right" style="color:#F15A29"></i>
-</ul>
-
+          <li role="presentation" class="active">Fast Food</li>
+          <li role="presentation">Drinks</li>
+          <li role="presentation">Chicken</li>
+          <li role="presentation">Rice</li>
+          <i class="fas fa-angle-left" style="color:#F15A29"></i>
+          <img src="assets/fastfood/chickenBurger.jpg">
+          <img src="assets/fastfood/beefBurger.jpg">
+          <img src="assets/fastfood/chickenPizza.jpg">
+          <i class="fas fa-angle-right" style="color:#F15A29"></i>
+        </ul>
       </div>
     </div>
     <div class="container-fluid">
@@ -103,7 +112,7 @@
       <h2><img src="assets/footerlogos/logo_white.png" alt="logo_white"> MENU</h2>
       <h4>That's What We Are</h4>
       <div class="footimages">
-        <img src="assets/footerlogos/facebook.png" alt="facebook">
+        <img src="assets/footerlogos/facebook.png" class="fa fa-facebook" alt="facebook">
         <img src="assets/footerlogos/twitter.png" alt="Twitter">
         <img src="assets/footerlogos/pinterest.png" alt="pinterest">
       </div>
