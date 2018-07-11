@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <script   src="js/jquery-3.3.1.min.js"></script>
     <script src="js/scripts.js"></script>
     <title>Anita's Kitchen</title>
@@ -41,7 +42,7 @@
        <h1>Fast Food</h1>
        <h4>You'll love our delicious fast food</h4>
        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-       <p>VIEW GALLERY</p>
+       <a href="#"><button class="button button1">VIEW GALLERY &#8594;</button></a>
      </div>
     </div>
     <div class="row" id="drinking">
@@ -49,7 +50,7 @@
         <h1>Drinks</h1>
         <h4>We also produce delicious drinks</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button class="btn btn-danger" id="view">VIEW GALLERY</button>
+        <a href="#"><button class="button button1">VIEW GALLERY &#8594;</button></a>
       </div>
       <div class="well">
          <div class="glass">
@@ -58,30 +59,39 @@
       </div>
     </div>
     <div class="row" id="fastFood">
-      <div class="card">
-        <div class="card-body">
-          <h5>Fast Food</h5>
-          <h5 class="card-header">Drinks</h5>
-          <h5 class="card-header">Chicken</h5>
-          <h5 class="card-header">Rice</h5>
-        </div>
-        <div class="card-body" id="food">
-          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastfood/chickenBurger.jpg" class="chickenBurger"><p>Chicken Burger</p>
-          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastfood/beefBurger.jpg" class="beefBurger"><p>Beef Burger</p>
-          <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/fastfood/chickenPizza.jpg" class="chickenPizza"><p>Chicken Pizza</p>
-        </div>
+      <div class="container">
+        <ul class="nav nav-tabs">
+  <li role="presentation" class="active">Fast Food</li>
+  <li role="presentation">Drinks</li>
+  <li role="presentation">Chicken</li>
+  <li role="presentation">Rice</li>
+    <i class="fas fa-angle-left" style="color:#F15A29"></i>
+  <img src="assets/fastfood/chickenBurger.jpg">
+  <img src="assets/fastfood/beefBurger.jpg">
+  <img src="assets/fastfood/chickenPizza.jpg">
+    <i class="fas fa-angle-right" style="color:#F15A29"></i>
+  <div class="tab">
+    <p>chickenBurger</p>
+    <p>beefBurger</p>
+    <p>chickenPizza</p>
+  </div>
+</ul>
+
       </div>
     </div>
     <div class="container-fluid">
     <div class="row" id="customer">
       <div class="col-md-7">
-        <h6>Our Happy Customers<br>George Richard</h6>
+        <h4>Our Happy Customers</h4>
+        <h6>George Richard</h6>
         <p>Great food! Menu is awesome,there food is not only great but<br>also in the right price.I'll highly recommend them :)</p>
+        <i class="fas fa-angle-left" style="color:#F15A29"></i>
         <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/customers/p1.png" alt="customer1">
         <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/customers/p2.png" alt="customer2">
         <img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/customers/p3.png" alt="customer3">
+        <i class="fas fa-angle-right" style="color:#F15A29"></i>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4" id="about">
           <h6>About Menu</h6>
           <p>We are menu a little team of 7 members.ut wisi enim ad minim veniam,
           quis nos truxeder ci tation ullercomper suscipit lob ortis nisl ut aliquip ex ea commodo conse quat.Duisau tem vel eum iriure dolor in.</p>
@@ -90,6 +100,8 @@
     </div>
     <div class="row" id="deliveries">
       <h4>Get our daily food items delivered to your email</h4>
+      <button class="button3" name="button">Your Email</button>
+      <button class="button2" name="button">Subscribe</button>
     </div>
     <div class="row" id="footerlogos">
       <h2><img src="/home/student/Documents/moringa-school-projects/mpft-ip/assets/footerlogos/logo_white.png" alt="logo_white"> MENU</h2>

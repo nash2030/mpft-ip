@@ -22,6 +22,7 @@
 }
 #breakfast:hover{
   color: #070707;
+  opacity:0.5;
 }
 #lunch{
   background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/lunch.jpg");
@@ -35,6 +36,7 @@
 }
 #lunch:hover{
   color: #070707;
+  opacity:0.5;
 }
 #dinner{
   background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/foodtop/dinner.jpg");
@@ -48,6 +50,7 @@
 }
 #dinner:hover{
   color:#070707;
+  opacity:0.5;
 }
 .logo{
 align-items: center;
@@ -72,24 +75,6 @@ display :flex
   padding-top: 180px;
   padding-bottom: 180px;
 }
-.card-body h5 {
-  display: inline;
-  padding-right: 50px;
-}
-#food {
-  display: inline;
-}
-.card{
-  margin: 0 auto;
-  float: none;
-  margin-top: 0px;
-  padding-top:20px;
-  padding-bottom: 30px;
-  margin-bottom: 10px;
-}
-.card-body h5:first-child{
-  color: #F15A29;
-}
 #customer{
   text-align: center;
   padding-top: 40px;
@@ -103,6 +88,15 @@ display :flex
   margin-right: 110px;
   margin-top: 40px;
 }
+#customer h4{
+  color: #f15a29;
+  font-size: 20px;
+  font-weight: bold;
+}
+#customer h6{
+  font-size: 15px;
+  font-weight: 600;
+}
 #deliveries{
   background-image: url("/home/student/Documents/moringa-school-projects/mpft-ip/assets/backgrounds/subscribe.jpg");
   background-size:cover;
@@ -114,7 +108,7 @@ display :flex
 #deliveries h4{
   color:white;
   font-size: 40px;
-  padding-left: 20%;
+  padding-left: 8%;
 }
 #footerlogos{
   background-color: #F15A29;
@@ -155,8 +149,8 @@ display :flex
   box-shadow: 10px solid;
 }
 #footerlogos{
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 .container-fluid{
   padding-bottom: 50px;
@@ -216,13 +210,92 @@ img.chickenPizza{
 .last{
   text-align: center;
   color: #f9f8f7;
+  margin-bottom:0px;
+  padding-top: 50px;
 }
 #footerlogos h2{
   color: #f9f8f7;
+  font-size: 45px;
+  font-family: serif;
 }
 #footerlogos h4{
   color: #f9f8f7;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 20px;
 }
 #food p{
   text-align: center;
+  color: #f9f8f7;
+}
+.nav-tabs{background-color: #fff; height:400px;margin-right:100px;}
+.nav-tabs li{
+  width: 25%;
+  background-color:#eee;
+  color: black;
+  border-left: 1px solid black;
+  font-weight: 600;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+}
+.nav-tabs img{
+  padding-left: 20px;
+  width:320px;height:200px;
+  margin-top: 20px;
+  margin-bottom:20px;
+  padding-right: 20px;
+}
+.tab{
+  display: inline;
+  padding: 10px;
+}
+.button{
+    border-color:#F15A29;
+    color: #F15A29;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 15px;
+}
+.button2{
+  background-color:#F15A29;
+  color:#f9f8f7 ;
+  padding-left:20px;
+  padding-right: 20px;
+  font-size: 28px;
+  width:17%;
+  border-style: none;
+  margin-left:60px;
+  margin-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.button3{
+  background-color: #ddd8d7;
+  color:#f9f8f7;
+  padding-left:20px;
+  padding-right: 20px;
+  font-size: 28px;
+  width:30%;
+  border-style: none;
+  margin-left:150px;
+  margin-top: 10px;
+  text-align: left;
+  opacity: 0.8;
+  font-weight: 900;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.footimages{
+  margin-right: 10px;
+}
+#about h6{
+  color: #f15a29;
+  font-size: 20px;
+  font-weight: bold;
+}
+i{
+  font-size: 38px;
+  padding-left: 5px;
 }
