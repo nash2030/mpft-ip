@@ -10,3 +10,11 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
+$(document).ready(function button(){
+    $("#submit").click(function(){
+        var emailing = $("input#email").val();
+
+        return alert(emailing + " has been successfully added to our email list. Thank you.");
+    event.preventDefault();
+    });
+});

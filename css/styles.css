@@ -344,3 +344,29 @@ i{
 .active{
   color: #f15a29;
 }
+.img-responsive {
+  display:inline;
+  padding-left: 50px;
+}
+#meals{
+  text-align: center;
+  padding: 20px;
+  padding-left: 40px;
+  box-sizing: border-box;
+  border: 5px solid #ffffff;
+  background-color: #fcfaf9;
+  margin-left: 90px;
+}
+#meals h4{
+  color:#f15a29;
+  display:inline;
+  padding-right: 250px;
+}
+.words p{
+  color:#f15a29;
+  display:inline;
+  padding-right:150px;
+  text-align: center;
+  margin-left: 150px;
+  padding-top: 50px;
+}

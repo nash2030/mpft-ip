@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -70,18 +71,30 @@
       </div>
     </div>
     <div class="row" id="fastFood">
-      <div class="container">
-        <ul class="nav nav-tabs">
-          <li role="presentation" class="active">Fast Food</li>
-          <li role="presentation">Drinks</li>
-          <li role="presentation">Chicken</li>
-          <li role="presentation">Rice</li>
-          <i class="fas fa-angle-left" style="color:#F15A29"></i>
-          <img src="assets/fastfood/chickenBurger.jpg">
-          <img src="assets/fastfood/beefBurger.jpg">
-          <img src="assets/fastfood/chickenPizza.jpg">
-          <i class="fas fa-angle-right" style="color:#F15A29"></i>
-        </ul>
+      <div class="card col-md-12">
+        <div class="card-body">
+          <div class="card-header">
+
+          </div>
+		      <div id="meals">
+            <div>
+              <h4>Fast Food</h4>
+              <h4>Drinks</h4>
+              <h4>Chicken</h4>
+              <h4>Rice</h4>
+            </div>
+            <i class="fas fa-angle-left" style="color:#f15a29"></i>
+		        <img src="assets/fastfood/beefBurger.jpg"  class="img-responsive" alt="Dinner">
+		        <img src="assets/fastfood/chickenBurger.jpg"  class="img-responsive" alt="Dinner">
+		        <img src="assets/fastfood/chickenPizza.jpg"  class="img-responsive" alt="Dinner">
+            <i class="fas fa-angle-right" style="color:#f15a29"></i>
+            <div class="words">
+              <p>Chicken Burger</p>
+              <p>Beef Burger</p>
+              <p>Chicken Pizza</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <div class="container-fluid">
@@ -105,8 +118,10 @@
     </div>
     <div class="row" id="deliveries">
       <h4>Get our daily food items delivered to your email</h4>
-      <button class="button3" name="button">Your Email</button>
-      <button class="button2" name="button">Subscribe</button>
+      <form>
+        <input type="text" id="email" name="email" placeholder="Your Email">
+          <button id="submit" name="Subscribe" onclick="button()">Subscribe</button>
+      </form>
     </div>
     <div class="row" id="footerlogos">
       <h2><img src="assets/footerlogos/logo_white.png" alt="logo_white"> MENU</h2>
