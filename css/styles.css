@@ -72,8 +72,8 @@ display :flex
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   background-size: cover;
   background-position: center;
-  padding-top: 180px;
-  padding-bottom: 180px;
+  padding-top: 160px;
+  padding-bottom: 160px;
 }
 #customer{
   text-align: center;
@@ -231,7 +231,7 @@ img.chickenPizza{
 }
 .nav-tabs{
   background-color: #fff;
-  height:400px;
+  height:350px;
   margin-right:100px;
   margin-left: 100px;
 }
@@ -239,15 +239,17 @@ img.chickenPizza{
   width: 25%;
   background-color:#eee;
   color: black;
-  border-left: 1px solid black;
+  border-left: 0.5px solid black;
   font-weight: 600;
   padding-bottom: 20px;
   padding-top: 20px;
   text-align: center;
+  font-size: 20px;
 }
 .nav-tabs img{
   padding-left: 20px;
-  width:320px;height:200px;
+  width:290px;
+  height:200px;
   margin-top: 20px;
   margin-bottom:20px;
   padding-right: 20px;
