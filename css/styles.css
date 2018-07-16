@@ -377,5 +377,10 @@ i{
   background-color: #f15a29;
   color:#fff;
   border:none;
-  padding: 30px;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#email{
+  padding-right: 40px;
 }
