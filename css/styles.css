@@ -370,3 +370,10 @@ i{
   margin-left: 150px;
   padding-top: 50px;
 }
+@media screen and (min-width: 500px) {
+
+}
+#submit{
+  background-color: #f15a29;
+  color:#fff;
+}
