@@ -378,9 +378,19 @@ i{
   color:#fff;
   border:none;
   font-size: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 80px;
+  padding-right:80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 50px;
 }
 #email{
-  padding-right: 40px;
+  padding-right: 230px;
+  font-size: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  opacity: 0.3;
+  color: #fff;
+  font-weight: bolder;
+  margin-left: 100px;
 }
