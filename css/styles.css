@@ -351,25 +351,32 @@ i{
 #meals{
   text-align: center;
   padding: 20px;
-  padding-left: 40px;
+  padding-left: 0px;
   box-sizing: border-box;
   border: 5px solid #ffffff;
   background-color: #fcfaf9;
   margin-left: 90px;
+  width: 70%;
+  margin-left: 220px;
 }
 #meals h4{
-  color:#f15a29;
+  color:#111111;
   display:inline;
   padding-right: 200px;
-  background-color: 
+  background-size: cover;
+  font-weight:bold;
+  font-weight: 600;
+  font-size: 20px;
 }
 .words p{
   color:#f15a29;
   display:inline;
   padding-right:150px;
   text-align: center;
-  margin-left: 150px;
+  margin-left: 100px;
   padding-top: 50px;
+  font-weight: 700;
+  font-size: 15px;
 }
 @media screen and (min-width: 500px) {
 
@@ -394,4 +401,7 @@ i{
   color: #fff;
   font-weight: bolder;
   margin-left: 100px;
+}
+span{
+  color: #f15a29;
 }
