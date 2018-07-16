@@ -376,4 +376,6 @@ i{
 #submit{
   background-color: #f15a29;
   color:#fff;
+  border:none;
+  padding: 30px;
 }
