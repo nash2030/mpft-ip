@@ -19,3 +19,5 @@
 
 ## License
 This project is licensed under the MIT License - see the[LICENSE.md](https://en.wikipedia.org/wiki/MIT_License) file for details.
+
+Copyright (c) Nathan Ongoya 2018.
