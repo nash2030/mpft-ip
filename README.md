@@ -8,10 +8,10 @@
 
 ## Setup/installation
     i.html
-   ii.css
-  iii.bootstrap
-  iii.jquery
-   iv.javascript
+    ii.css
+    iii.bootstrap
+    iii.jquery
+    iv.javascript
 
 Link to live site on Git-Hub:
    [Anita's Kitchen](https://nash2030.github.io/mpft-ip/)
