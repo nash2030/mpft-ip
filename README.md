@@ -12,7 +12,7 @@
    [Anita's Kitchen](https://nash2030.github.io/mpft-ip/)
 
 ## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+This project is licensed under the MIT License - see the[LICENSE.md](https://en.wikipedia.org/wiki/MIT_License) file for details.
 
 
 
