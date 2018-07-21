@@ -9,10 +9,12 @@
 ## Setup/installation
 
 ##Link to live site on Git-Hub:
-  *Click on this link <https://nash2030.github.io/mpft-ip/>to view the webpage.*
+   [Anita's Kitchen](https://nash2030.github.io/mpft-ip/)
 
 ## License
-  *This License of this project under the MIT License*
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+
 
 ## The Technologies Used
   *HTML*
